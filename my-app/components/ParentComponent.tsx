@@ -31,14 +31,16 @@ const ParentComponent = () => {
 
       {/* Content */}
       <div className="relative z-10 bg-black bg-opacity-50 text-white">
-        {/* First Section with New Cars */}
+
+        {/* New Cars */}
         <CarList cars={firstSetOfCars} heading="New Cars" />
 
-        {/* Divider */}
+        {/* Divider a line */}
         <hr className="border-t-2 border-blue-300 my-12 mx-auto w-3/4" />
 
-        {/* Second Section with Used Cars */}
+        {/* Used Cars */}
         <CarList cars={usedCars} heading="Used Cars" />
+        
       </div>
     </div>
   );
